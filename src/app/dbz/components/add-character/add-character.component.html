@@ -1,0 +1,7 @@
+<h4>Agregar framwork</h4>
+<form (ngSubmit)="emitCharacter()" class="row">
+    <input type="text" [(ngModel)]="character.name" name="name" class="form-control mb-2" placeholder="Nombre">
+    <input type="number" [(ngModel)]="character.level" name="level" class="form-control mb-2" placeholder="Conocimiento">
+    <button type="submit" class="btn btn-primary">Agregar</button>
+    <!-- <pre>{{character | json}}</pre> -->
+</form>
